@@ -3,6 +3,9 @@ I used this docker-compose to run n8n on a rented cloud server.
 The beauty of it is that it shows how to use ./local-files folder in
 the project's root as a way to give n8n access to local files.
 
+The project is a modification of official [self-hosted ai-starter kit](https://github.com/n8n-io/self-hosted-ai-starter-kit), but without ollama and with qdrant
+
+
 Also, if you run it on coolify which manages the ssl certificates for you,
 then you don't need traeffik set up.
 
